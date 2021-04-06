@@ -7,6 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * @author zhangcongcong
  */
+
 @EnableDiscoveryClient
 @SpringBootApplication
 public class ArticleGatewayApplication {

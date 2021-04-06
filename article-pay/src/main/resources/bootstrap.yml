@@ -1,21 +1,24 @@
 server:
-  port: 8010
+  port: 8092
+
 # Spring
 spring:
   application:
     # 应用名称
-    name: dict-auth-dev
+    name: article-pay
   profiles:
     # 环境配置
     active: dev
+  main:
+    allow-bean-definition-overriding: true
   cloud:
     nacos:
       discovery:
         # 服务注册地址
-        server-addr: 192.168.1.142:8848
+        server-addr: 8.133.189.43:8848
       config:
         # 配置中心地址
-        server-addr: 192.168.1.142:8848
+        server-addr: 8.133.189.43:8848
         # 配置文件格式
         file-extension: yml
         # 共享配置

@@ -7,18 +7,12 @@
         <artifactId>article-manager</artifactId>
         <version>1.0.1</version>
     </parent>
-    <groupId>com.million</groupId>
-    <artifactId>article-auth</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>article-auth</name>
-    <description>认证中心</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+
     <dependencies>
+        <!-- SpringCloud Ailibaba Nacos -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
         <!-- SpringCloud Ailibaba Nacos Config -->
@@ -28,13 +22,9 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <artifactId>article-auth</artifactId>
+
+    <description>认证中心</description>
+
 
 </project>

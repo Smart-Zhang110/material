@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="article-exchange" />
-        <module name="article-registry" />
         <module name="article-common-core" />
         <module name="article-auth" />
         <module name="article-order" />
         <module name="article-api-pay" />
-        <module name="article-pay" />
         <module name="article-gateway" />
+        <module name="article-pay" />
+        <module name="article-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
