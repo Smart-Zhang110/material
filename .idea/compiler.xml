@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="article-exchange" />
+        <module name="article-registry" />
+        <module name="article-common-core" />
+        <module name="article-auth" />
+        <module name="article-order" />
+        <module name="article-api-pay" />
+        <module name="article-pay" />
+        <module name="article-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="article-api" options="" />
+      <module name="article-api-pay" options="" />
+      <module name="article-auth" options="" />
+      <module name="article-exchange" options="" />
+      <module name="article-gateway" options="" />
+      <module name="article-order" options="" />
+      <module name="article-pay" options="" />
+      <module name="article-registry" options="" />
+    </option>
+  </component>
+</project>

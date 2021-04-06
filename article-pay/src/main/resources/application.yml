@@ -1,0 +1,15 @@
+server:
+  port: 9040
+spring:
+  application:
+    name: article-pay
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.133.189.43:8848
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000
