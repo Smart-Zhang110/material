@@ -340,3 +340,27 @@
 
 2021-04-07 17:25:04,107 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":143,"leaderDueMs":16396,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 143
 
+2021-04-07 17:25:20,606 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":144,"leaderDueMs":18230,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 144
+
+2021-04-07 17:25:39,107 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":145,"leaderDueMs":19813,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 145
+
+2021-04-07 17:25:59,106 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":146,"leaderDueMs":16252,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 146
+
+2021-04-07 17:26:15,606 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":147,"leaderDueMs":17383,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 147
+
+2021-04-07 17:26:33,107 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":148,"leaderDueMs":18771,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 148
+
+2021-04-07 17:26:52,107 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":149,"leaderDueMs":18024,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 149
+
+2021-04-07 17:27:10,606 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":150,"leaderDueMs":19940,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 150
+
+2021-04-07 17:27:30,606 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":151,"leaderDueMs":16508,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 151
+
+2021-04-07 17:27:47,607 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":152,"leaderDueMs":17099,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 152
+
+2021-04-07 17:28:05,106 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":153,"leaderDueMs":15739,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 153
+
+2021-04-07 17:28:21,106 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":154,"leaderDueMs":19875,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 154
+
+2021-04-07 17:28:41,107 INFO leader timeout, start voting,leader: {"ip":"192.168.1.81:8848","voteFor":"192.168.1.81:8848","term":155,"leaderDueMs":16252,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 155
+
