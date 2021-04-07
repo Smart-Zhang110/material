@@ -1,6 +1,7 @@
 package com.million.articlepay.service;
 
 import com.million.api.RemotePayService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
@@ -14,7 +15,7 @@ import javax.annotation.Resource;
 @Component
 public class PayService {
 
-    @Resource
+    @Autowired
     private RemotePayService remotePayService;
 
     public String payOrder(){
