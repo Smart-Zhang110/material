@@ -35,4 +35,5 @@ java.lang.IllegalStateException: No fallbackFactory instance of type class
 ```
  - 5.Feigin调用超时<br/>
  ```*添加ribbon配置```*
+ >  -https://cloud.tencent.com/developer/article/1648232<br/>
 
