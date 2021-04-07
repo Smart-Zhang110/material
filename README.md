@@ -17,4 +17,22 @@ application:
   profiles:
     active: dev
 ```
+ - 3.Load balancer does not have available server for client<br>
+ ```*yml中添加如下所示```
+ ```yaml
+feign:
+  hystrix:
+    enabled: true
+```
+ - 4.Feign 出现
+```shell script
+java.lang.IllegalStateException: No fallbackFactory instance of type class
+```
+服务调用方扫描不到接口实现类，在服务调用方启动入口添加：
+```shell script
+@EnableFeignClients(basePackages = "com.million")
+@SpringBootApplication(scanBasePackages = "com.million")
+```
+ - 5.Feigin调用超时
+ 添加ribbon配置
 

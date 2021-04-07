@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = "com.million")
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.million")
 public class ArticlePayApplication {
 
     public static void main(String[] args) {

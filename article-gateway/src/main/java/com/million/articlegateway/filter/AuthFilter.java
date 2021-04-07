@@ -27,18 +27,18 @@ import javax.annotation.Resource;
 public class AuthFilter implements GlobalFilter, Ordered {
 
 
-    private static final Logger log = LoggerFactory.getLogger(AuthFilter.class);
+    private static final Logger logger = LoggerFactory.getLogger(AuthFilter.class);
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         String url = exchange.getRequest().getURI().getPath();
-
+        logger.info("******  Request URL : " + url);
         ServerWebExchange mutableExchange = exchange.mutate().build();
         return chain.filter(mutableExchange);
     }
 
     @Override
     public int getOrder() {
-        return -200;
+        return 0;
     }
 }

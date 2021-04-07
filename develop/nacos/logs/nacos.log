@@ -1,208 +1,100 @@
-2021-04-06 13:06:59,407 INFO Starting Nacos v1.3.2 on VPC-ZhangCongCong with PID 74176 (C:\Idea\article-manager\develop\nacos\target\nacos-server.jar started by zhangcongcong in C:\Idea\article-manager\develop\nacos\bin)
+2021-04-07 16:42:21,442 INFO Starting Nacos v1.3.2 on VPC-ZhangCongCong with PID 49324 (C:\Idea\article-manager\develop\nacos\target\nacos-server.jar started by zhangcongcong in C:\Idea\article-manager\develop\nacos\bin)
 
-2021-04-06 13:06:59,416 INFO The following profiles are active: standalone
+2021-04-07 16:42:21,455 INFO The following profiles are active: standalone
 
-2021-04-06 13:07:10,549 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$bf301d27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:32,742 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$6bf9c417] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-04-06 13:07:10,759 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:32,924 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-04-06 13:07:10,780 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@19e7a160' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:32,945 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5117dd67' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-04-06 13:07:10,796 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e404bfd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:32,961 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$90ce66c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-04-06 13:07:10,823 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:32,982 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-04-06 13:07:11,920 INFO Tomcat initialized with port(s): 8848 (http)
+2021-04-07 16:42:34,068 INFO Tomcat initialized with port(s): 8848 (http)
 
-2021-04-06 13:07:11,982 INFO Starting service [Tomcat]
+2021-04-07 16:42:34,117 INFO Starting service [Tomcat]
 
-2021-04-06 13:07:11,984 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+2021-04-07 16:42:34,117 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
 
-2021-04-06 13:07:12,011 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;c:\program files (x86)\ericsson\element management\emrk;C:\Program Files\nodejs\;C:\Users\zhangcongcong\AppData\Roaming\npm;C:\Users\zhangcongcong\AppData\Local\Programs\Git\cmd;.]
+2021-04-07 16:42:34,145 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;c:\program files (x86)\ericsson\element management\emrk;C:\Program Files\nodejs\;C:\Users\zhangcongcong\AppData\Roaming\npm;C:\Users\zhangcongcong\AppData\Local\Programs\Git\cmd;.]
 
-2021-04-06 13:07:12,297 INFO Initializing Spring embedded WebApplicationContext
+2021-04-07 16:42:34,419 INFO Initializing Spring embedded WebApplicationContext
 
-2021-04-06 13:07:12,298 INFO Root WebApplicationContext: initialization completed in 12689 ms
+2021-04-07 16:42:34,420 INFO Root WebApplicationContext: initialization completed in 12759 ms
 
-2021-04-06 13:07:14,035 WARN HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2021-04-07 16:42:36,155 WARN HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
 
-2021-04-06 13:07:14,036 INFO HikariPool-1 - Starting...
+2021-04-07 16:42:36,155 INFO HikariPool-1 - Starting...
 
-2021-04-06 13:07:14,048 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-04-07 16:42:36,168 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
 
-2021-04-06 13:07:15,052 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-04-07 16:42:37,102 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
 
-2021-04-06 13:07:15,065 INFO HikariPool-1 - Start completed.
+2021-04-07 16:42:37,115 INFO HikariPool-1 - Start completed.
 
-2021-04-06 13:07:17,233 INFO Nacos-related cluster resource initialization
+2021-04-07 16:42:39,451 INFO Nacos-related cluster resource initialization
 
-2021-04-06 13:07:17,256 INFO The cluster resource is initialized
+2021-04-07 16:42:39,474 INFO The cluster resource is initialized
 
-2021-04-06 13:07:18,044 INFO Reflections took 96 ms to scan 1 urls, producing 6 keys and 24 values 
+2021-04-07 16:42:40,330 INFO Reflections took 93 ms to scan 1 urls, producing 6 keys and 24 values 
 
-2021-04-06 13:07:18,109 INFO Reflections took 10 ms to scan 1 urls, producing 2 keys and 12 values 
+2021-04-07 16:42:40,396 INFO Reflections took 11 ms to scan 1 urls, producing 2 keys and 12 values 
 
-2021-04-06 13:07:18,122 INFO Reflections took 8 ms to scan 1 urls, producing 3 keys and 15 values 
+2021-04-07 16:42:40,411 INFO Reflections took 10 ms to scan 1 urls, producing 3 keys and 15 values 
 
-2021-04-06 13:07:19,722 WARN [HttpClientManager] Start destroying HttpClient
+2021-04-07 16:42:42,808 INFO Initializing ExecutorService 'applicationTaskExecutor'
 
-2021-04-06 13:07:19,725 WARN [HttpClientManager] Destruction of the end
+2021-04-07 16:42:43,218 INFO Adding welcome page: class path resource [static/index.html]
 
-2021-04-06 13:07:19,723 WARN [ThreadPoolManager] Start destroying ThreadPool
+2021-04-07 16:42:44,187 INFO Creating filter chain: Ant [pattern='/**'], []
 
-2021-04-06 13:07:19,723 WARN [NotifyCenter] Start destroying Publisher
+2021-04-07 16:42:44,271 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22c86919, org.springframework.security.web.context.SecurityContextPersistenceFilter@64da2a7, org.springframework.security.web.header.HeaderWriterFilter@724f138e, org.springframework.security.web.csrf.CsrfFilter@12cd9150, org.springframework.security.web.authentication.logout.LogoutFilter@21694e53, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d78795, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b9d6699, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70fab835, org.springframework.security.web.session.SessionManagementFilter@32fe9d0a, org.springframework.security.web.access.ExceptionTranslationFilter@f415a95]
 
-2021-04-06 13:07:19,736 WARN [NotifyCenter] Destruction of the end
+2021-04-07 16:42:44,678 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
 
-2021-04-06 13:29:45,460 INFO Starting Nacos v1.3.2 on VPC-ZhangCongCong with PID 74420 (C:\Idea\article-manager\develop\nacos\target\nacos-server.jar started by zhangcongcong in C:\Idea\article-manager\develop\nacos\bin)
+2021-04-07 16:42:44,756 INFO Initializing ExecutorService 'taskScheduler'
 
-2021-04-06 13:29:45,461 INFO The following profiles are active: standalone
+2021-04-07 16:42:45,172 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
 
-2021-04-06 13:29:58,523 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$628924ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:45,184 INFO Started Nacos in 26.431 seconds (JVM running for 28.165)
 
-2021-04-06 13:29:58,760 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:45,185 INFO Nacos Log files: C:\Idea\article-manager\develop\nacos\logs
 
-2021-04-06 13:29:58,842 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7357a011' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:45,192 INFO Nacos Log files: C:\Idea\article-manager\develop\nacos\conf
 
-2021-04-06 13:29:58,853 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$875dc75f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:45,198 INFO Nacos Log files: C:\Idea\article-manager\develop\nacos\data
 
-2021-04-06 13:29:58,868 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-07 16:42:45,208 INFO Nacos started successfully in stand alone mode. use embedded storage
 
-2021-04-06 13:30:00,278 INFO Tomcat initialized with port(s): 8848 (http)
+2021-04-07 16:42:51,000 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
 
-2021-04-06 13:30:00,332 INFO Starting service [Tomcat]
+2021-04-07 16:42:51,000 INFO Initializing Servlet 'dispatcherServlet'
 
-2021-04-06 13:30:00,333 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+2021-04-07 16:42:51,018 INFO Completed initialization in 14 ms
 
-2021-04-06 13:30:00,363 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;c:\program files (x86)\ericsson\element management\emrk;C:\Program Files\nodejs\;C:\Users\zhangcongcong\AppData\Roaming\npm;C:\Users\zhangcongcong\AppData\Local\Programs\Git\cmd;.]
+2021-04-07 16:52:40,897 INFO [capacityManagement] start correct usage
 
-2021-04-06 13:30:00,686 INFO Initializing Spring embedded WebApplicationContext
+2021-04-07 16:52:40,925 INFO [capacityManagement] end correct usage, cost: 0s
 
-2021-04-06 13:30:00,686 INFO Root WebApplicationContext: initialization completed in 14974 ms
+2021-04-07 16:52:41,306 WARN clearConfigHistory start
 
-2021-04-06 13:30:03,925 WARN HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2021-04-07 17:02:40,927 INFO [capacityManagement] start correct usage
 
-2021-04-06 13:30:03,926 INFO HikariPool-1 - Starting...
+2021-04-07 17:02:40,928 INFO [capacityManagement] end correct usage, cost: 0s
 
-2021-04-06 13:30:03,950 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-04-07 17:02:41,312 WARN clearConfigHistory start
 
-2021-04-06 13:30:05,301 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-04-07 17:12:40,931 INFO [capacityManagement] start correct usage
 
-2021-04-06 13:30:05,316 INFO HikariPool-1 - Start completed.
+2021-04-07 17:12:40,932 INFO [capacityManagement] end correct usage, cost: 0s
 
-2021-04-06 13:30:07,766 INFO Nacos-related cluster resource initialization
+2021-04-07 17:12:41,315 WARN clearConfigHistory start
 
-2021-04-06 13:30:07,785 INFO The cluster resource is initialized
+2021-04-07 17:22:40,934 INFO [capacityManagement] start correct usage
 
-2021-04-06 13:30:08,681 INFO Reflections took 93 ms to scan 1 urls, producing 6 keys and 24 values 
+2021-04-07 17:22:40,935 INFO [capacityManagement] end correct usage, cost: 0s
 
-2021-04-06 13:30:08,743 INFO Reflections took 10 ms to scan 1 urls, producing 2 keys and 12 values 
-
-2021-04-06 13:30:08,758 INFO Reflections took 9 ms to scan 1 urls, producing 3 keys and 15 values 
-
-2021-04-06 13:30:11,719 INFO Initializing ExecutorService 'applicationTaskExecutor'
-
-2021-04-06 13:30:12,674 INFO Adding welcome page: class path resource [static/index.html]
-
-2021-04-06 13:30:14,116 INFO Creating filter chain: Ant [pattern='/**'], []
-
-2021-04-06 13:30:14,211 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b11ef33, org.springframework.security.web.context.SecurityContextPersistenceFilter@355e34c7, org.springframework.security.web.header.HeaderWriterFilter@2fd1731c, org.springframework.security.web.csrf.CsrfFilter@782a4fff, org.springframework.security.web.authentication.logout.LogoutFilter@48c40605, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a2da905, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@302fec27, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@476aac9, org.springframework.security.web.session.SessionManagementFilter@6063d80a, org.springframework.security.web.access.ExceptionTranslationFilter@59fc684e]
-
-2021-04-06 13:30:14,629 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
-
-2021-04-06 13:30:14,699 INFO Initializing ExecutorService 'taskScheduler'
-
-2021-04-06 13:30:15,087 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
-
-2021-04-06 13:30:15,110 INFO Started Nacos in 32.442 seconds (JVM running for 34.436)
-
-2021-04-06 13:30:15,110 INFO Nacos Log files: C:\Idea\article-manager\develop\nacos\logs
-
-2021-04-06 13:30:15,118 INFO Nacos Log files: C:\Idea\article-manager\develop\nacos\conf
-
-2021-04-06 13:30:15,122 INFO Nacos Log files: C:\Idea\article-manager\develop\nacos\data
-
-2021-04-06 13:30:15,125 INFO Nacos started successfully in stand alone mode. use embedded storage
-
-2021-04-06 13:37:43,345 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
-
-2021-04-06 13:37:43,346 INFO Initializing Servlet 'dispatcherServlet'
-
-2021-04-06 13:37:43,370 INFO Completed initialization in 22 ms
-
-2021-04-06 13:40:09,453 INFO [capacityManagement] start correct usage
-
-2021-04-06 13:40:09,486 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 13:40:09,869 WARN clearConfigHistory start
-
-2021-04-06 13:50:09,487 INFO [capacityManagement] start correct usage
-
-2021-04-06 13:50:09,488 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 13:50:09,887 WARN clearConfigHistory start
-
-2021-04-06 14:00:09,521 INFO [capacityManagement] start correct usage
-
-2021-04-06 14:00:09,524 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 14:00:09,891 WARN clearConfigHistory start
-
-2021-04-06 14:10:09,525 INFO [capacityManagement] start correct usage
-
-2021-04-06 14:10:09,526 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 14:10:09,894 WARN clearConfigHistory start
-
-2021-04-06 14:20:09,528 INFO [capacityManagement] start correct usage
-
-2021-04-06 14:20:09,529 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 14:20:09,897 WARN clearConfigHistory start
-
-2021-04-06 14:30:09,531 INFO [capacityManagement] start correct usage
-
-2021-04-06 14:30:09,532 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 14:30:09,898 WARN clearConfigHistory start
-
-2021-04-06 14:40:09,534 INFO [capacityManagement] start correct usage
-
-2021-04-06 14:40:09,535 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 14:40:09,901 WARN clearConfigHistory start
-
-2021-04-06 14:50:09,536 INFO [capacityManagement] start correct usage
-
-2021-04-06 14:50:09,537 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 14:50:09,903 WARN clearConfigHistory start
-
-2021-04-06 15:00:09,538 INFO [capacityManagement] start correct usage
-
-2021-04-06 15:00:09,539 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 15:00:09,905 WARN clearConfigHistory start
-
-2021-04-06 15:10:09,541 INFO [capacityManagement] start correct usage
-
-2021-04-06 15:10:09,542 INFO [capacityManagement] end correct usage, cost: 0s
-
-2021-04-06 15:10:09,907 WARN clearConfigHistory start
-
-2021-04-06 15:19:24,026 WARN [HttpClientManager] Start destroying HttpClient
-
-2021-04-06 15:19:24,033 WARN [HttpClientManager] Destruction of the end
-
-2021-04-06 15:19:24,028 WARN [ThreadPoolManager] Start destroying ThreadPool
-
-2021-04-06 15:19:24,030 WARN [NotifyCenter] Start destroying Publisher
-
-2021-04-06 15:19:24,040 WARN [NotifyCenter] Destruction of the end
-
-2021-04-06 15:19:24,054 INFO Shutting down ExecutorService 'taskScheduler'
-
-2021-04-06 15:19:24,078 INFO Shutting down ExecutorService 'applicationTaskExecutor'
-
-2021-04-06 15:19:50,044 WARN [ThreadPoolManager] Destruction of the end
+2021-04-07 17:22:41,318 WARN clearConfigHistory start
 

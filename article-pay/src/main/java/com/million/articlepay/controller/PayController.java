@@ -1,12 +1,10 @@
 package com.million.articlepay.controller;
 
-import com.million.api.RemotePayService;
 import com.million.articlepay.service.PayService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 
 
 /**
@@ -15,13 +13,13 @@ import javax.annotation.Resource;
  * @date 2021/4/2 10:53
  * @description ...
  */
-@Controller
+@RestController
 public class PayController {
 
     @Autowired
     private PayService payOrder;
 
-    @GetMapping("/pay")
+    @GetMapping("/order")
     public String pay(){
         return payOrder.payOrder();
     }

@@ -8,5 +8,5 @@ package com.million.constains;
  */
 public class SystemConstains {
 
-    public static final String PAY_SERVICE = "article-pay";
+    public static final String PAY_SERVICE = "article-pay-dev";
 }

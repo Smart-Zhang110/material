@@ -11,9 +11,14 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2021/4/2 9:53
  * @description ...
  */
-@FeignClient(contextId = "remotePayService", value = SystemConstains.PAY_SERVICE, fallbackFactory = RemotePayFallbackFactory.class)
+@FeignClient(value = SystemConstains.PAY_SERVICE, fallbackFactory = RemotePayFallbackFactory.class)
 public interface RemotePayService {
 
-    @GetMapping
-    public String payOrder();
+    /**
+     * 支付接口
+     * @return
+     */
+
+    @GetMapping("/order")
+    String payOrder();
 }
