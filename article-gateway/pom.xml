@@ -8,10 +8,8 @@
         <version>1.0.1</version>
     </parent>
 
-    <groupId>com.million</groupId>
     <artifactId>article-gateway</artifactId>
-    <version>1.0.1</version>
-    <name>article-gateway</name>
+
     <description>网关</description>
 
 
@@ -26,6 +24,18 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
+        <!-- SpringCloud Ailibaba Sentinel -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+
+        <!-- SpringBoot Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
