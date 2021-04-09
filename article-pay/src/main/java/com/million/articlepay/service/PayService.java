@@ -4,7 +4,6 @@ import com.million.api.RemotePayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 
 /**
  * @author zhangcongcong
@@ -18,7 +17,7 @@ public class PayService {
     @Autowired
     private RemotePayService remotePayService;
 
-    public String payOrder(){
-        return remotePayService.payOrder();
+    public String payOrder(String name){
+        return remotePayService.orderUserInfo(name);
     }
 }

@@ -9,7 +9,10 @@ spring:
   cloud:
     gateway:
       routes:
-        # 系统模块
+        - id: article-auth
+          uri: lb://article-auth
+          predicates:
+            - Path=/auth/**
         - id: article-pay
           uri: lb://article-pay
           predicates:

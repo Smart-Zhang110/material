@@ -4,6 +4,8 @@ import com.million.constains.SystemConstains;
 import com.million.factory.RemotePayFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @author zhangcongcong
@@ -21,4 +23,16 @@ public interface RemotePayService {
 
     @GetMapping("/order")
     String payOrder();
+
+    /**
+     * 支付人用户信息
+     * @return
+     */
+    /**
+     * 订单支付者信息
+     * @param userName
+     * @return
+     */
+    @RequestMapping("/order/userinfo/{name}")
+    String orderUserInfo(@PathVariable(value = "name") String userName);
 }

@@ -1,80 +1,12 @@
-2021-04-07 16:42:55,991 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2021-04-09 17:29:16,446 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2021-04-07 16:42:56,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 192.168.1.81:8092_true,
+2021-04-09 17:29:16,448 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 
 
-2021-04-07 16:43:07,932 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2021-04-09 17:29:16,522 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2021-04-07 16:43:07,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 192.168.1.81:8080_true,
+2021-04-09 17:29:16,522 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 
 
-2021-04-07 16:43:52,570 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2021-04-09 17:29:16,526 INFO DEFAULT_GROUP@@article-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2021-04-07 16:43:52,570 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 
-
-2021-04-07 16:44:12,044 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:44:12,044 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 192.168.1.81:8080_true,
-
-2021-04-07 16:47:44,526 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:47:44,526 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 
-
-2021-04-07 16:48:03,275 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:48:03,275 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 192.168.1.81:8092_true,
-
-2021-04-07 16:50:09,930 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:50:09,930 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 
-
-2021-04-07 16:50:29,277 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:50:29,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 192.168.1.81:8080_true,
-
-2021-04-07 16:53:32,636 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:53:32,636 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 
-
-2021-04-07 16:53:53,492 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:53:53,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 192.168.1.81:8080_true,
-
-2021-04-07 16:58:01,185 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:58:01,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 
-
-2021-04-07 16:58:25,080 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:58:25,081 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 192.168.1.81:8080_true,
-
-2021-04-07 16:59:41,862 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 16:59:41,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 
-
-2021-04-07 17:00:06,054 INFO DEFAULT_GROUP@@article-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:00:06,054 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-gateway, ips: 192.168.1.81:8080_true,
-
-2021-04-07 17:05:58,577 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:05:58,578 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 
-
-2021-04-07 17:06:17,956 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:06:17,956 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 192.168.1.81:8092_true,
-
-2021-04-07 17:08:17,553 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:08:17,554 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 
-
-2021-04-07 17:16:02,049 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:16:02,049 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 192.168.1.81:8092_true,
-
-2021-04-07 17:17:54,825 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:17:54,825 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 
-
-2021-04-07 17:20:51,149 INFO DEFAULT_GROUP@@article-pay {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.81:8092:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2021-04-07 17:20:51,149 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-pay, ips: 192.168.1.81:8092_true,
+2021-04-09 17:29:16,526 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@article-auth, ips: 
 

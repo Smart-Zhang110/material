@@ -22,6 +22,11 @@ public class RemotePayFallbackFactory implements FallbackFactory<RemotePayServic
             public String payOrder() {
                 return null;
             }
+
+            @Override
+            public String orderUserInfo(String userName) {
+                return null;
+            }
         };
     }
 }

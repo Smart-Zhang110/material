@@ -3,8 +3,9 @@ package com.million.articlepay.controller;
 import com.million.articlepay.service.PayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 
 
 /**
@@ -19,8 +20,15 @@ public class PayController {
     @Autowired
     private PayService payOrder;
 
-    @GetMapping("/order")
-    public String pay(){
-        return payOrder.payOrder();
+    @GetMapping("/order/{name}")
+    public String pay(@PathVariable(value = "name") String name) {
+        return payOrder.payOrder(name);
     }
+
+    @RequestMapping("/order/userinfo/{name}")
+    public String getUserInfo(@PathVariable(value = "name") String name) {
+        return "cczhang";
+    }
+
+
 }

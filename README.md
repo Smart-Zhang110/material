@@ -36,4 +36,9 @@ java.lang.IllegalStateException: No fallbackFactory instance of type class
  - 5.Feigin调用超时<br/>
  ```*添加ribbon配置```*
  >  -https://cloud.tencent.com/developer/article/1648232<br/>
+# 2021年4月8日 踩坑记录
+ - 1.Feign PathVariable annotation was empty on param 0.
+ >  -https://www.cnblogs.com/huhuixin/p/7797850.html<br/>
 
+使用Feign的时候,如果参数中带有
+@PathVariable形式的参数,则要用value=""标明对应的参数,否则会抛出IllegalStateException异常

@@ -1,202 +1,36 @@
-2021-04-07 16:42:57,021 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
+2021-04-09 17:29:17,451 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
 
-2021-04-07 16:42:57,077 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:63061, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63061,2533169097841092
+2021-04-09 17:29:17,459 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:64273, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,64273,2708749494717839
 
-2021-04-07 16:42:57,078 INFO send udp packet: 192.168.1.81,63061,2533169097841092
+2021-04-09 17:29:17,459 INFO send udp packet: 192.168.1.81,64273,2708749494717839
 
-2021-04-07 16:42:57,116 INFO received ack: {"type": "push-ack", "lastRefTime":"2533169097841092", "data":""} from: 192.168.1.81:63061, cost: 38 ms, unacked: 0, total push: 1
+2021-04-09 17:29:17,460 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:51050, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,51050,2708749494717839
 
-2021-04-07 16:43:08,933 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
+2021-04-09 17:29:17,460 INFO send udp packet: 192.168.1.81,51050,2708749494717839
 
-2021-04-07 16:43:08,934 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:63062, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63062,2533180973943334
+2021-04-09 17:29:17,468 INFO received ack: {"type": "push-ack", "lastRefTime":"2708749494717839", "data":""} from: 192.168.1.81:51050, cost: 8 ms, unacked: 1, total push: 2
 
-2021-04-07 16:43:08,934 INFO send udp packet: 192.168.1.81,63062,2533180973943334
+2021-04-09 17:29:17,469 INFO received ack: {"type": "push-ack", "lastRefTime":"2708749494717839", "data":""} from: 192.168.1.81:64273, cost: 10 ms, unacked: 0, total push: 2
 
-2021-04-07 16:43:08,939 INFO received ack: {"type": "push-ack", "lastRefTime":"2533180973943334", "data":""} from: 192.168.1.81:63062, cost: 5 ms, unacked: 0, total push: 2
+2021-04-09 17:29:17,523 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
 
-2021-04-07 16:43:53,572 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
+2021-04-09 17:29:17,523 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:64273, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,64273,2708749562608341
 
-2021-04-07 16:43:53,573 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:63062, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63062,2533225611813710
+2021-04-09 17:29:17,523 INFO send udp packet: 192.168.1.81,64273,2708749562608341
 
-2021-04-07 16:43:53,573 INFO send udp packet: 192.168.1.81,63062,2533225611813710
+2021-04-09 17:29:17,525 INFO received ack: {"type": "push-ack", "lastRefTime":"2708749562608341", "data":""} from: 192.168.1.81:64273, cost: 2 ms, unacked: 0, total push: 3
 
-2021-04-07 16:43:53,577 INFO received ack: {"type": "push-ack", "lastRefTime":"2533225611813710", "data":""} from: 192.168.1.81:63062, cost: 4 ms, unacked: 0, total push: 3
+2021-04-09 17:29:17,526 INFO DEFAULT_GROUP@@article-auth is changed, add it to push queue.
 
-2021-04-07 16:44:13,046 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
+2021-04-09 17:29:17,526 INFO serviceName: DEFAULT_GROUP@@article-auth changed, schedule push for: 192.168.1.81:50063, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,50063,2708749565485994
 
-2021-04-07 16:44:13,047 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:59768, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,59768,2533245085828584
+2021-04-09 17:29:17,526 INFO send udp packet: 192.168.1.81,50063,2708749565485994
 
-2021-04-07 16:44:13,047 INFO send udp packet: 192.168.1.81,59768,2533245085828584
+2021-04-09 17:29:17,526 INFO serviceName: DEFAULT_GROUP@@article-auth changed, schedule push for: 192.168.1.81:64273, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,64273,2708749565485994
 
-2021-04-07 16:44:13,051 INFO received ack: {"type": "push-ack", "lastRefTime":"2533245085828584", "data":""} from: 192.168.1.81:59768, cost: 4 ms, unacked: 0, total push: 4
+2021-04-09 17:29:17,526 INFO send udp packet: 192.168.1.81,64273,2708749565485994
 
-2021-04-07 16:47:45,527 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
+2021-04-09 17:29:17,527 INFO received ack: {"type": "push-ack", "lastRefTime":"2708749565485994", "data":""} from: 192.168.1.81:64273, cost: 1 ms, unacked: 1, total push: 5
 
-2021-04-07 16:47:45,528 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:63061, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63061,2533457567174876
-
-2021-04-07 16:47:45,528 INFO send udp packet: 192.168.1.81,63061,2533457567174876
-
-2021-04-07 16:47:45,529 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:63061, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63061,2533457567174876
-
-2021-04-07 16:47:45,529 INFO send udp packet: 192.168.1.81,63061,2533457567174876
-
-2021-04-07 16:47:45,533 INFO received ack: {"type": "push-ack", "lastRefTime":"2533457567174876", "data":""} from: 192.168.1.81:63061, cost: 4 ms, unacked: 0, total push: 5
-
-2021-04-07 16:47:45,540 ERROR [NACOS-PUSH] error while receiving ack data
-
-java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.1.81,63061,2533457567174876, ack json: {"type": "push-ack", "lastRefTime":"2533457567174876", "data":""}
-	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:677)
-	at java.lang.Thread.run(Thread.java:748)
-2021-04-07 16:48:04,277 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 16:48:04,278 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:62702, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,62702,2533476316661280
-
-2021-04-07 16:48:04,278 INFO send udp packet: 192.168.1.81,62702,2533476316661280
-
-2021-04-07 16:48:04,283 INFO received ack: {"type": "push-ack", "lastRefTime":"2533476316661280", "data":""} from: 192.168.1.81:62702, cost: 5 ms, unacked: 0, total push: 6
-
-2021-04-07 16:50:10,931 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:50:10,931 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:59768, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,59768,2533602970819190
-
-2021-04-07 16:50:10,932 INFO send udp packet: 192.168.1.81,59768,2533602970819190
-
-2021-04-07 16:50:10,936 INFO received ack: {"type": "push-ack", "lastRefTime":"2533602970819190", "data":""} from: 192.168.1.81:59768, cost: 4 ms, unacked: 0, total push: 7
-
-2021-04-07 16:50:30,278 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:50:30,278 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:58395, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58395,2533622317940089
-
-2021-04-07 16:50:30,279 INFO send udp packet: 192.168.1.81,58395,2533622317940089
-
-2021-04-07 16:50:30,283 INFO received ack: {"type": "push-ack", "lastRefTime":"2533622317940089", "data":""} from: 192.168.1.81:58395, cost: 4 ms, unacked: 0, total push: 8
-
-2021-04-07 16:53:33,638 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:53:33,638 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:58395, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58395,2533805677492038
-
-2021-04-07 16:53:33,639 INFO send udp packet: 192.168.1.81,58395,2533805677492038
-
-2021-04-07 16:53:33,643 INFO received ack: {"type": "push-ack", "lastRefTime":"2533805677492038", "data":""} from: 192.168.1.81:58395, cost: 4 ms, unacked: 0, total push: 9
-
-2021-04-07 16:53:54,493 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:53:54,493 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:57987, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,57987,2533826532655076
-
-2021-04-07 16:53:54,494 INFO send udp packet: 192.168.1.81,57987,2533826532655076
-
-2021-04-07 16:53:54,498 INFO received ack: {"type": "push-ack", "lastRefTime":"2533826532655076", "data":""} from: 192.168.1.81:57987, cost: 4 ms, unacked: 0, total push: 10
-
-2021-04-07 16:58:02,186 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:58:02,186 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:57987, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,57987,2534074226412806
-
-2021-04-07 16:58:02,188 INFO send udp packet: 192.168.1.81,57987,2534074226412806
-
-2021-04-07 16:58:02,191 INFO received ack: {"type": "push-ack", "lastRefTime":"2534074226412806", "data":""} from: 192.168.1.81:57987, cost: 3 ms, unacked: 0, total push: 11
-
-2021-04-07 16:58:26,081 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:58:26,081 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:63578, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63578,2534098120970628
-
-2021-04-07 16:58:26,082 INFO send udp packet: 192.168.1.81,63578,2534098120970628
-
-2021-04-07 16:58:26,087 INFO received ack: {"type": "push-ack", "lastRefTime":"2534098120970628", "data":""} from: 192.168.1.81:63578, cost: 5 ms, unacked: 0, total push: 12
-
-2021-04-07 16:59:42,863 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 16:59:42,863 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:63578, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,63578,2534174903244714
-
-2021-04-07 16:59:42,864 INFO send udp packet: 192.168.1.81,63578,2534174903244714
-
-2021-04-07 16:59:42,867 INFO received ack: {"type": "push-ack", "lastRefTime":"2534174903244714", "data":""} from: 192.168.1.81:63578, cost: 3 ms, unacked: 0, total push: 13
-
-2021-04-07 17:00:07,055 INFO DEFAULT_GROUP@@article-gateway is changed, add it to push queue.
-
-2021-04-07 17:00:07,055 INFO serviceName: DEFAULT_GROUP@@article-gateway changed, schedule push for: 192.168.1.81:58102, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58102,2534199094573868
-
-2021-04-07 17:00:07,056 INFO send udp packet: 192.168.1.81,58102,2534199094573868
-
-2021-04-07 17:00:07,061 INFO received ack: {"type": "push-ack", "lastRefTime":"2534199094573868", "data":""} from: 192.168.1.81:58102, cost: 5 ms, unacked: 0, total push: 14
-
-2021-04-07 17:05:59,579 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 17:05:59,580 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:62702, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,62702,2534551618927165
-
-2021-04-07 17:05:59,580 INFO send udp packet: 192.168.1.81,62702,2534551618927165
-
-2021-04-07 17:05:59,581 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:62702, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,62702,2534551618927165
-
-2021-04-07 17:05:59,581 INFO send udp packet: 192.168.1.81,62702,2534551618927165
-
-2021-04-07 17:05:59,581 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:58102, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58102,2534551618927165
-
-2021-04-07 17:05:59,582 INFO send udp packet: 192.168.1.81,58102,2534551618927165
-
-2021-04-07 17:05:59,583 INFO received ack: {"type": "push-ack", "lastRefTime":"2534551618927165", "data":""} from: 192.168.1.81:62702, cost: 2 ms, unacked: 1, total push: 16
-
-2021-04-07 17:05:59,583 ERROR [NACOS-PUSH] error while receiving ack data
-
-java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.1.81,62702,2534551618927165, ack json: {"type": "push-ack", "lastRefTime":"2534551618927165", "data":""}
-	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:677)
-	at java.lang.Thread.run(Thread.java:748)
-2021-04-07 17:05:59,587 INFO received ack: {"type": "push-ack", "lastRefTime":"2534551618927165", "data":""} from: 192.168.1.81:58102, cost: 5 ms, unacked: 0, total push: 16
-
-2021-04-07 17:06:18,957 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 17:06:18,957 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:58102, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58102,2534570996954751
-
-2021-04-07 17:06:18,958 INFO send udp packet: 192.168.1.81,58102,2534570996954751
-
-2021-04-07 17:06:18,958 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:49920, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,49920,2534570996954751
-
-2021-04-07 17:06:18,959 INFO send udp packet: 192.168.1.81,49920,2534570996954751
-
-2021-04-07 17:06:18,963 INFO received ack: {"type": "push-ack", "lastRefTime":"2534570996954751", "data":""} from: 192.168.1.81:58102, cost: 5 ms, unacked: 1, total push: 18
-
-2021-04-07 17:06:18,967 INFO received ack: {"type": "push-ack", "lastRefTime":"2534570996954751", "data":""} from: 192.168.1.81:49920, cost: 8 ms, unacked: 0, total push: 18
-
-2021-04-07 17:08:18,555 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 17:08:18,555 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:58102, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58102,2534690594746589
-
-2021-04-07 17:08:18,555 INFO send udp packet: 192.168.1.81,58102,2534690594746589
-
-2021-04-07 17:08:18,556 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:49920, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,49920,2534690594746589
-
-2021-04-07 17:08:18,556 INFO send udp packet: 192.168.1.81,49920,2534690594746589
-
-2021-04-07 17:08:18,561 INFO received ack: {"type": "push-ack", "lastRefTime":"2534690594746589", "data":""} from: 192.168.1.81:49920, cost: 5 ms, unacked: 1, total push: 20
-
-2021-04-07 17:08:18,562 INFO received ack: {"type": "push-ack", "lastRefTime":"2534690594746589", "data":""} from: 192.168.1.81:58102, cost: 7 ms, unacked: 0, total push: 20
-
-2021-04-07 17:16:03,050 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 17:16:03,050 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:54907, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,54907,2535155090093359
-
-2021-04-07 17:16:03,051 INFO send udp packet: 192.168.1.81,54907,2535155090093359
-
-2021-04-07 17:16:03,056 INFO received ack: {"type": "push-ack", "lastRefTime":"2535155090093359", "data":""} from: 192.168.1.81:54907, cost: 5 ms, unacked: 0, total push: 21
-
-2021-04-07 17:17:55,826 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 17:17:55,827 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:54907, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,54907,2535267866293885
-
-2021-04-07 17:17:55,828 INFO send udp packet: 192.168.1.81,54907,2535267866293885
-
-2021-04-07 17:17:55,829 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:58102, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,58102,2535267866293885
-
-2021-04-07 17:17:55,829 INFO send udp packet: 192.168.1.81,58102,2535267866293885
-
-2021-04-07 17:17:55,832 INFO received ack: {"type": "push-ack", "lastRefTime":"2535267866293885", "data":""} from: 192.168.1.81:54907, cost: 4 ms, unacked: 1, total push: 23
-
-2021-04-07 17:17:55,833 INFO received ack: {"type": "push-ack", "lastRefTime":"2535267866293885", "data":""} from: 192.168.1.81:58102, cost: 4 ms, unacked: 0, total push: 23
-
-2021-04-07 17:20:52,151 INFO DEFAULT_GROUP@@article-pay is changed, add it to push queue.
-
-2021-04-07 17:20:52,151 INFO serviceName: DEFAULT_GROUP@@article-pay changed, schedule push for: 192.168.1.81:53501, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.81,53501,2535444190585225
-
-2021-04-07 17:20:52,151 INFO send udp packet: 192.168.1.81,53501,2535444190585225
-
-2021-04-07 17:20:52,157 INFO received ack: {"type": "push-ack", "lastRefTime":"2535444190585225", "data":""} from: 192.168.1.81:53501, cost: 5 ms, unacked: 0, total push: 24
+2021-04-09 17:29:17,539 INFO received ack: {"type": "push-ack", "lastRefTime":"2708749565485994", "data":""} from: 192.168.1.81:50063, cost: 13 ms, unacked: 0, total push: 5
 
