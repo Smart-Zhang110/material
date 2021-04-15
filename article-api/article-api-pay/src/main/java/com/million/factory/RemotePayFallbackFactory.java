@@ -1,8 +1,7 @@
 package com.million.factory;
 
-import com.million.api.RemotePayService;
+import com.million.api.UserInfoService;
 import feign.hystrix.FallbackFactory;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,19 +11,15 @@ import org.springframework.stereotype.Service;
  * @description ...
  */
 @Service
-public class RemotePayFallbackFactory implements FallbackFactory<RemotePayService> {
+public class RemotePayFallbackFactory implements FallbackFactory<UserInfoService> {
 
 
     @Override
-    public RemotePayService create(Throwable cause) {
-        return new RemotePayService() {
-            @Override
-            public String payOrder() {
-                return null;
-            }
+    public UserInfoService create(Throwable cause) {
+        return new UserInfoService() {
 
             @Override
-            public String orderUserInfo(String userName) {
+            public String getUserInfo(String user) {
                 return null;
             }
         };

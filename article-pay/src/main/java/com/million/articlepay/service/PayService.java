@@ -1,6 +1,6 @@
 package com.million.articlepay.service;
 
-import com.million.api.RemotePayService;
+import com.million.api.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -15,9 +15,9 @@ import org.springframework.stereotype.Component;
 public class PayService {
 
     @Autowired
-    private RemotePayService remotePayService;
+    private UserInfoService userInfoService;
 
     public String payOrder(String name){
-        return remotePayService.orderUserInfo(name);
+        return userInfoService.getUserInfo(name);
     }
 }

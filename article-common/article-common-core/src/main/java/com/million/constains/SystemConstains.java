@@ -9,4 +9,6 @@ package com.million.constains;
 public class SystemConstains {
 
     public static final String PAY_SERVICE = "article-pay-dev";
+
+    public static final String USER_SERVICE = "article-auth-dev";
 }

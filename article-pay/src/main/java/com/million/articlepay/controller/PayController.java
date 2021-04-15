@@ -20,15 +20,12 @@ public class PayController {
     @Autowired
     private PayService payOrder;
 
-    @GetMapping("/order/{name}")
-    public String pay(@PathVariable(value = "name") String name) {
-        return payOrder.payOrder(name);
+    @GetMapping("/order/{user}")
+    public String pay(@PathVariable(value = "user") String user) {
+        return payOrder.payOrder(user);
     }
 
-    @RequestMapping("/order/userinfo/{name}")
-    public String getUserInfo(@PathVariable(value = "name") String name) {
-        return "cczhang";
-    }
+
 
 
 }
